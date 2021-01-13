@@ -11,17 +11,17 @@ $x = 100;
 $y = "200";
 $z = '300';
 $add = $x + $y;
-$sub = $z - $y;
+$sub = $z - $x;
 $time = $y * $z;
 $divide = $time / $z;
 $message = "Hello World";
 echo $x; echo "<br />";
 echo $y; echo "<br />";
 echo $z; echo "<br />";
-echo $x, " + ",$y," = ",$add; echo "<br />";
-echo $z, " - ",$y," = ",$sub; echo "<br />";
-echo $y, " * ",$z," = ",$time; echo "<br />";
-echo $time, " / ",$z," = ",$divide; echo "<br />";
+echo "ผลบวก ",$x, " + ",$y," = ",$add; echo "<br />";
+echo "ผลลบ ",$z, " - ",$x," = ",$sub; echo "<br />";
+echo "ผลคูณ ",$y, " * ",$z," = ",$time; echo "<br />";
+echo "ผลหาร ",$time, " / ",$z," = ",$divide; echo "<br />";
 echo $message; echo "<br />";
 ?>
 </body>
