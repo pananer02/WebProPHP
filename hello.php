@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
-    <h2>Bangkok</h2>
-    <a href="content/data.html">Link Here</a>
+    <?php
+    echo "<h1>Hello<br></h1>";
+    echo "<h2>Prachinburi</h2>";
+    ?>
 </body>
 </html>
